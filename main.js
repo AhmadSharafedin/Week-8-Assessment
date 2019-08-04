@@ -20,8 +20,18 @@ var age=25
 var result="My name is: " + name + "and my age is: " + age
 
 4)
-var food="Fried Chicken"
-var color="Blue"
+var food="Fried 1) 
+function sum(x,y){
+  return x+y
+}
+
+
+var color="Blue"1) 
+function sum(x,y){
+  return x+y
+}
+
+
 var object={
   food:food,
   color:color
@@ -36,14 +46,27 @@ var object2={
 */
 
 //1) WRITE YOUR CODE UNDER THIS LINE         
+class Sum {
+x:
+y:
+// must change the function to class and the name of class must start with capital letter then the object 
 
 //2) WRITE YOUR CODE UNDER THIS LINE         
+class ConsoleReturn {
 
+}
 //3) WRITE YOUR CODE UNDER THIS LINE         
-
+let name="Alex"
+let age=25
+const result="My name is: " , name , "and my age is: " , age
 //4) WRITE YOUR CODE UNDER THIS LINE         
 
 //5) WRITE YOUR CODE UNDER THIS LINE         
+let object2{
+  multi:class = (a,b){
+   a * b
+  }
+}
 
 
 
@@ -68,14 +91,20 @@ Output =>
   OS:'Windows',
   RAM:16,
   CPU:'I7',
-  doubleRAM:f(){}
+  doubleRAM:f(){}class Computer 
 }
 */
 
 // WRITE YOUR CODE UNDER THIS LINE
+class Computer{
+  constructor(
+  OS:windows,linux,mac
+  Ram:16,8,4
+  Cpu:I7,I5,I3
+  )
+}
 
-
-
+// must make a new class to change the ram value using (this) then return the new value with object
 
 
 
@@ -98,12 +127,17 @@ export default class App extends Component {
   }
   render() {
     return (
-      <h1>App Component => state.title</h1>
+      <>
+    <h1>App Component => state.title</h1>
       <button onClick={this.changeTitle}>Change Title</button>
       <Tasks tasks={this.todos} changeTitleFromChild={this.changeTitle} />
+      </>
     );
   }
 }
+
+
+
 
 // Tasks Component
 import React, { Component } from 'react';
@@ -121,7 +155,7 @@ class Tasks extends Component {
       <div>
         <h1>Tasks Component => state.day</h1>
         <button onClick={this.changeDay}>Change Tasks State</button>
-        <button onClick={changeTitle}>Change App State</button>
+        <button onClick={this.changeTitle}>Change App State</button>
       </div>
     );
   }
